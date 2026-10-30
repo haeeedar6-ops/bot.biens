@@ -89,7 +89,7 @@ LOSS_COOLDOWN_MIN = env_int("LOSS_COOLDOWN_MIN", 60)     # بعد أي صفقة 
 STOP_COOLDOWN_MIN = env_int("STOP_COOLDOWN_MIN", 120)    # بعد وقف الخسارة
 MAX_RSI_BUY = env_float("MAX_RSI_BUY", 65)               # ما نشتري إذا السعر طالع كتير
 
-LOOP_SLEEP = 15
+LOOP_SLEEP = 30
 WAIT_COOLDOWN = 300
 KLINE_LIMIT = 12
 NEWS_CACHE_SEC = 1200
